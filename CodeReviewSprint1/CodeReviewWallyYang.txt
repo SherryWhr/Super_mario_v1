@@ -1,0 +1,41 @@
+﻿Author of the Code Review:
+Wally Yang
+
+Date of the Code Review:
+2018/02/13
+
+Sprint Number:
+Sprint 1
+
+Name of the .cs file being reviewed:
+MarioSprites.cs
+
+Author of the .cs file being reviewed:
+Bin Chen
+
+Specific comments on code quality:
+
+Generally, the class fulfilled its purpose to control everything on the Mario and the code quality is fair.
+
+The class make use of Command Pattern and is used as the receiver. The class contains methods to act on the 
+Mario, which make up a lot of codes in the class (The class contains 169 lines of codes in total). Yet I 
+believe since all those methods are as simple as they can, without redundancy or uselessiness. Thus, I think
+it's fair to say the class class has high cohesion.
+
+The class also used the State Pattern to simplify codes from branches and make the statements precise, yet 
+does not couple with other classes, which is good.
+
+However, I believe the state machine could be simpler, considering the class used one struct and three enum
+types, and each of those enums even contains several integer number for the texture. It is possible to use
+more concise data structure to represent the state machine.
+
+Number of minutes taken to complete the review:
+10 min.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+
+From my perspective, with the help of some data structures, we can simplify the codes inside the class a bit
+more. Simple way could be extract fields and types relates to state machine into a new class (say MarioState)
+and provide methods to control within the current class. This way, we can makes the class shorter. Or, we can
+apply data structures like Tuple and Dictionary and combine them to provide concise representation without 
+expose so much fields and types in the class body. The class could also be more concise.

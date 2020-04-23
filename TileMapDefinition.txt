@@ -1,0 +1,20 @@
+The tilemap definition:
+tilemap is .json file
+
+ObjectType: use number to represent the type of the object,
+0 is Mario
+1 is Goomba
+2 is KoopaTroopa
+3 is QuestionBlock
+4 is UsedBlock
+5 is BrickBlock
+6 is FloorBlock
+7 is PyramidBlock
+8 is Pipe
+9 is SuperMushroom
+10 is OneUpMushroom
+12 is FireFlower
+13 Starman
+
+RectangleX, RectangleY: Location of the Object 
+RectangleHeight, RectangleWidth: Size of the Object

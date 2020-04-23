@@ -1,0 +1,24 @@
+﻿Author of the code review:
+Bin Chen
+
+Date of the code review:
+Mar 20 2018
+
+Sprint number:
+3
+
+Name of the .cs file being reviewed:
+SuperMushroom.cs
+
+Author of the .cs file being reviewed:
+Wally Yang
+
+Specific comments on code quality:
+CollideOnRight() and CollideOnRight() methods are too complicated, include many check of classes. The idea of creating CollideMario() class is good, since it 
+avoids duplicated codes. The Collision resoponses logic is a little messy.
+
+Number of minutes taken to complete the review:
+10 minutes
+
+Hypothetical change:
+Maybe refactor the CollideOnRight() and CollideOnRight() methods 

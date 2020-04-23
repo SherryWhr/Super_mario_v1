@@ -1,0 +1,25 @@
+﻿Author of the code review:
+Bin Chen
+
+Date of the code review:
+Feb 13 2018
+
+Sprint number:
+1
+
+Name of the .cs file being reviewed:
+BrickBlockSprite.cs
+
+Author of the .cs file being reviewed:
+Zhang, XuYang
+
+Specific comments on code quality:
+The way of implementing the Update() and Draw() methods are good, and the implementation of Explode() is creative. However, there are too much useless variables in this class, 
+and the sheetSize variable passing to the constructor may be useless since this varible is largely dependent to the spritesheet where the 
+spritesheet is initialized in the constructor, so I think this variable should also be initialized in constructor.
+
+Number of minutes taken to complete the review:
+20 minutes
+
+Hypothetical change:
+delete some useless variables

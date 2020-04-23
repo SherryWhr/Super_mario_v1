@@ -1,0 +1,26 @@
+﻿Author: Xing Gao
+Date: 04/03/2018
+Sprint 4
+
+File being reviewed: 
+FontFactory.cs, TextSprite.cs, HUD.cs
+
+Author of the .cs file: Xuyang Zhang, Haoran Wang
+
+Specific comments on code quality: 
+FontFactory, HUD and TextSprite were designed to display information such as Player, Coins Collected, Points, 
+Current Level and Time Remaining. TextSprite class includes color, font, and other related fonts information can
+provide more flexibility to the customized layout output. However, the HUD constructor may need to be refactored. 
+For example, in the constructor, "MARIO = FontFactory.GetFont("MARIO");" can be added into a dictionary where MARIO
+is the key word, and "new Vector2(Const.MAR_X, Const.MAR_Y)" is the value. Using proper data structure can simplify
+the draw method.
+
+Time used: 
+11 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+If we would like to add more customized features into layout output by providing a user interface, the current structure 
+does not support us to do that. This can be modified by changing the constructor of FontFactory(), which can parse the 
+value of color, or other information.
+

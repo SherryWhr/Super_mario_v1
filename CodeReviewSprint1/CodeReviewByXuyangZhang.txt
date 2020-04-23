@@ -1,0 +1,25 @@
+Author: Xuyang Zhang
+Date of the Code review: 2/13/2018
+Sprint number: 1
+Sprite.Enemies: Goomba.cs   GreenKoopaTroopa.cs   RedKoopaTroopa.cs
+.cs Author: Bin, Chen
+
+
+All methods are in reasonable length and for single purpose. 
+Only field that should not be accessed outside class were labeled as private.
+Include a prototype of state machine,which is convenient for future design
+There some unused fields which serves for future features
+The current coupling is 12 which is not too high. 
+Cyclomatic complexity is 4 so it is not hard to test in current stage
+It is unnecessary to extend itemSprite as a middle layer in the inheritance tree
+the Sprite class h=has already contained draw
+The constructor used now is not for the purpose of of collision detection, so it can be reused for next sprints
+
+Time to complete: 10min
+
+hypothetical changes:
+delete Itemsprites and override Draw methods
+change position type to Rectangle in the Sprite class and rebuild constructors for each sprite classes, This is time consuming 
+
+
+

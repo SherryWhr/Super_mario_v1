@@ -1,0 +1,48 @@
+﻿Author: Haoran Wang
+Date: 2/13/2018
+Sprint 1
+
+File being reviewed: CoinDisappear.cs, JumpCoin.cs
+Author of the .cs file: Haoran Wang
+
+Specific comments on code quality: 
+The code quality is pretty good, it is pretty simple and neat. It is just there are several variables that haven't been used. However, they are to be used in the future. 
+Also the class has never been used in the solution, since the sprint we created this time has no collision happened. This class is to be used when Mario collide with a 
+coin on the flat ground. The coins act spin normally before the collision and the class is to be called after the collision happens. 
+And since collision haven't been implemented yet, the update method also haven't been finished yet.
+
+Time used: 13 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+A potential change related to this file would be to implement for the collision. This file could possibly add a variable indicated whether collision has happen yet. 
+
+
+
+File being reviewed: Commands.cs
+Author of the .cs file: Xing Gao
+
+Specific comments on code quality: 
+The code quality is pretty good, it is pretty simple and neat. 
+There are two classes: ThrowFireballCommand and PauseCommand that have never been used in the solution. These classes are to be used when implementing later sprites. 
+The PauseCommand is a internal class implementing the abstract class Command for hitting key to pause the game; the ThrowFireballCommand is a internal class implementing the abstract class Command for hitting key to throw fireball. 
+
+Time used: 14 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+A future feature addition would be to implement pause and shooting fireball or snowball. This implementment would benefit us in case we forget to do these implementations and also saving these to internal class unimplement would be convenient for further implementation. 
+
+
+
+File being reviewed: Sprite.cs
+Author of the .cs file: Xuyang Zhang
+
+Specific comments on code quality: 
+The code quality is good, it is pretty simple and neat. 
+It contains a ISprite interface and Sprite abstract implementing it.
+The Interface declares two basic functions necessary for the sprites. 
+The abstract class contains most of the variables we use and would use for the sprites in the Sprints. 
+Time used: 12 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+This implementation would help for further development. If we want to add functions or declare new variables for the sprite classes, we could just declare them in this file. 
+

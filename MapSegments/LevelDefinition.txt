@@ -1,0 +1,121 @@
+﻿// This is a file to illustrate the definition of level json file
+// contents after "//" are comments, others are json format level definition
+
+// Entire level
+// an level.json has a pair of curly braces around the entire file
+// serves as a JSON Object
+// all numbers representing size / location is used in grid coordinates
+// actual number will be the number times grid height / width (both are 32)
+{
+	"FieldHeight": 12,
+	// string: int
+	// FieldHeight is the total height of the playing area
+	// acutal number is 12 * 30 = 360; same for other numbers
+
+	"FieldWidth": 25,
+	// string: int
+	// FieldWidth is the total width of the playing area
+
+	"StartPointX": 3,
+	// string: int
+	// StartPointX is the X coordiante for location of starting mario
+	// actual number is 3 * 32 = 96
+
+	"StartPointY": 3,
+	// string: int
+	// StartPointY is the Y coordinate for location of staring mario
+
+	"SecretUpperLeftX": 5,
+	// string: int
+	// ScreteUpperLeftX is the X coordinate for location of upper left corner in the secrete area
+
+	"SecretUpperLeftY": 8,
+	// string: int
+	// ScreteUpperLeftY is the Y coordinate for location of upper left corner in the secrete area
+
+	"SecretLowerRightX": 10,
+	// string: int
+	// ScreteLowerRightX is the X coordinate for location of lower right corner in the secrete area
+
+	"SecretLowerRightX": 15,
+	// string: int
+	// ScreteLowerRightY is the Y coordinate for location of lower right corner in the secrete area
+
+	"EnemyObjects": [
+	// string: array
+	// EnemyObjects is a array containing all the enemies in the level
+		{
+			"EnemyType": "Goomba",
+			// string: string
+			// EnemyType is the type of enemy
+			// Choices are "Goomba", "GreenKoopaTroopa", "RedKoopaTroopa"
+
+			"LocationX": 5,
+			// string: int
+			// LocationX is the X coordinate for location of this enemy
+
+			"LocationY": 6
+			// string: int
+			// LocationY is the Y coordinate for location of this enemy
+		}
+	],
+
+	"StructuralObjects": [
+	// string: array
+	// StructuralObjects is a array containing all block-like things in the level
+	// including question block, brick block, used block, and hidden block
+		{
+			"BlockType": "BrickBlock",
+			// string: string
+			// BlockType is the type of this block
+			// Choices are "BrickBlock", "QuestionBlock", "UsedBlock"
+
+			"Hidden": false,
+			// string: bool
+			// Hidden is the status whether the block is hidden
+
+			"CoinNumber": 0,
+			// string: int
+			// the number of coins in this block
+
+			"PowerUpItem": "SuperMashroom",
+			// string: string
+			// the power up item containing in this block
+			// Choices are "SuperMashroom", "OneUpMushroom", "FireFlower", "Starman", and "None"
+
+			"LocationX": 5,
+			// string: int
+			// LocationX is the X coordinate for location of this block
+
+			"LocationY": 6
+			// string: int
+			// LocationY is the Y coordinate for location of this block
+		}
+	],
+
+	"Pipes": [
+	// string: array
+	// Pipes is an array containing all the pipes in the game
+		{
+			"Active": false,
+			// string: bool
+			// whether mario can go into this pipe
+
+			"Height": 3,
+			// string: int
+			// the height of this pipe, going down from the LocationY
+
+			"Width": 2,
+			// string: int
+			// the width of this pipe, going right from the LocationX
+
+			"LocationX": 8,
+			// string: int
+			// the x coordinate of this pipe
+
+			"LocationY": 9,
+			// string: int
+			// the y coordinate of this pipe
+		}
+	]
+}

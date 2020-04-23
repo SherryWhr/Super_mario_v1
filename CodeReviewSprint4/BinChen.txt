@@ -1,0 +1,25 @@
+﻿Author of the code review:
+Bin Chen
+
+Date of the code review:
+April 3 2018
+
+Sprint number:
+4
+
+Name of the .cs file being reviewed:
+BlackScreenState.cs
+
+Author of the .cs file being reviewed:
+XuYang, Zhang
+
+Specific comments on code quality:
+The idea to create a new spiteBatch to draw the black screen is interesting, the setting of delay is good. 
+However, magic number still exists in this class. Also, the CK1 and CK2 variables are read from const instead of the map definition 
+file, which I think might cause hugh problems when changing map definition.
+
+Number of minutes taken to complete the review:
+10 minutes
+
+Hypothetical change:
+Putting all of the magic numbers into Const.cs, getting the checking points from map definition instead of from const.cs

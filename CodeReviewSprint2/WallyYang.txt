@@ -1,0 +1,40 @@
+﻿Author of the Code Review:
+Wally Yang
+
+Date of the Code Review:
+2018/02/28
+
+Sprint Number:
+Sprint 2
+
+Name of the .cs file being reviewed:
+Mario.cs
+
+Author of the .cs file being reviewed:
+Bin Chen
+
+Specific comments on code quality:
+
+Compared to this file from last sprint, the class used more codes and methods, the total length grows to
+roughly 200 lines, yet I believe the codes is built with better code quality.
+
+This class is still a part of Command Pattern, yet the Command class modified to use generic type to fit 
+into different types of receivers and Mario is one of them. Executes from commands are all one-line codes
+makes it very clear.
+
+The states were refactored into enum - concreate states dictionaries to make use of the State Pattern, 
+while I believe the two dictionaries also makes the codes a little bit messy, it does improved the general
+readability compared to last sprint. I would say there could be more to be done to simplify these two. 
+
+The biggest problem I believe in this class is  OnCollide. This method contains a bunch of if statements,
+while the condition is duplicated a lot. In the future, these codes could be refactored into more brief code
+using polymorphism and other OOP ways.
+
+Number of minutes taken to complete the review:
+12 min.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+
+A possible way, though I'm not sure if appropriate, to refactor the OnCollide method is to combine different
+branch in the method with the state machine, adding some method on the state interface and interacting with
+the Mario class.

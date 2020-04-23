@@ -1,0 +1,45 @@
+Author: Xing Gao
+Date: 3/20/2018
+Sprint 3
+
+File being reviewed: 
+NormalCoin.cs, JumpCoin.cs
+
+Author of the .cs file: Xuyang Zhang, Haoran Wang
+
+Specific comments on code quality: 
+In NormalCoin.cs, CollideOnTop, CollideOnBottom, CollideOnLeft, and CollideOnRight share the same part of the code, 
+so we can consider to refactor these methods in this class. Similar to JumpCoin, most of the items only have a single 
+response to collisions. We can refactor 4 kinds of collision into a single method to simplify the code and improve 
+the quality. This can be done by refactor NormalCoin.cs class and add methods in collision detection class. 
+The coding style of JumpCoin class can be taken as a template for other classes. 
+
+Time used: 
+8 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+If we add more items in the future, code with too many unnecessary methods will induce problems and conflicts 
+and reduce the flexibility of the code. It makes each class hard to be inherited and developed. Therefore, code 
+in item classes should be refactored.
+
+File being reviewed: 
+Camera.cs
+
+Author of the .cs file: Wally Yang
+
+Specific comments on code quality: 
+Camera class has a public member - position, which can be accessed by Enemy to decided whether it should start to 
+move. However, the public accessibility may cause other classes to change the value of position easily, and it may 
+lead to inconsistence of the position of Mario and the sprites drawn. Therefore, it would be better if we add another 
+public class to return the value of position. Also, in Enemy class, the viewport of game is also accessed and this variable 
+is used in Camera.cs to determine the "virtual" location on screen for each sprite. The value of viewport is stored by another 
+private member, viewport, in Camera class, so we can create a public method to return its value as well.
+
+Time used: 
+5 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+We will add more components in the future and the current Camera class is sufficient to support future changes.
+

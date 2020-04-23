@@ -1,0 +1,25 @@
+﻿Author of the code review:
+Bin Chen
+
+Date of the code review:
+Feb 27 2018
+
+Sprint number:
+2
+
+Name of the .cs file being reviewed:
+BaseCollideObject.cs
+
+Author of the .cs file being reviewed:
+Wally Yang
+
+Specific comments on code quality:
+this class is an abstract class all other object classes. I think the Boundry properity is very good since it makes checking AABB collision easier. The DrawBoarderRectangle
+can also be a great method to draw the boundary of different objects in different color. However, the four collide direction detect method seems so complecated to understand, 
+and seems have some bugs on checking the direction.
+
+Number of minutes taken to complete the review:
+20 minutes
+
+Hypothetical change:
+Using alternative methods to check the direction of collision or fix the current method

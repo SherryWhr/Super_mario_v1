@@ -1,0 +1,24 @@
+Author of the Code Review:
+Xuyang Zhang
+
+Date of the Code Review:
+2018/4/3
+
+Sprint Number:
+Sprint 4
+
+Name of the .cs file being reviewed:
+IGameState.cs
+
+Author of the Class: Xuyang Zhang
+
+Time Used: 10 min
+
+Comments on Code Quality:
+State Pattern is used for Game States. It implements an abstract basestate class in this file.
+Each concrete state class extend the base class. The transition functions' using virtual keyword in the base class 
+reduce repeated code in the concrete classes, which decrease code smells. Also, the transition functions make it possible to 
+avoid bunch of else-if statement. So, the code are clear to read and easy to maintain.
+
+Further improvement:
+Place the BaseClass part in another file. 

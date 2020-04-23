@@ -1,0 +1,43 @@
+﻿Author of the Code Review:
+Wally Yang
+
+Date of the Code Review:
+2018/03/20
+
+Sprint Number:
+Sprint 3
+
+Name of the .cs file being reviewed:
+GameModel.cs, Scene.cs, Control.cs
+
+Author of the .cs file being reviewed:
+Haoran Wang, Wally Yang, Wally Yang
+
+Specific comments on code quality:
+
+These three classes serves as the MVC architecture in the project. Before this sprint, there are many flaws
+in these classes. For example, each of these classes holds a reference to each other, the Scene class holds
+both a list of game objects and the collision detection object. The initialization of Control's commands 
+are loaded from the GameModel class. The Initialization and LoadContent method are mixed into each other. 
+The coupling was high and create code smells.
+
+After this sprint, these three classes are completely docoupled as the standard MVC pattern. The GameModel 
+is independently of other two classes, while provide properties and method for the other two to use. For 
+instance, the game objects are now held by the GameModel, and GameModel provide a Collection<IGameObject>
+for Scene to do the rendering. Also, commands loading were extracted into Control class without the GameModel
+know the detail of controllers.
+
+Meanwhile, the JSON level loaded in the GameModel create some code smells as well. The codes used to handle
+the level make up of a great percentage of the GameModel, while there are many similar codes. Although all
+the loops in LoadLevel is a little bit different from each other, but generally I believe they can be factored
+out into methods so make it more brief. I expect to refactor codes for level control in next sprint.
+
+Number of minutes taken to complete the review:
+17 min.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+
+One way I can think of to improve the implementation and solve code smells by the level is to extract the
+entire level out from the GameModel and make a separate class. The new class could contain several methods
+to deal with the duplicated codes. Meanwhile, it is also possible to extract the level itself from the model
+level to the MarioGame level, combining with level mechanism.

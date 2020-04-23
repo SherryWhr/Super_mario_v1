@@ -1,0 +1,37 @@
+﻿Author of the Code Review:
+Wally Yang
+
+Date of the Code Review:
+2018/04/03
+
+Sprint Number:
+Sprint 4
+
+Name of the .cs file being reviewed:
+MarioSpriteFactory.cs
+
+Author of the .cs file being reviewed:
+Haoran Wang
+
+Specific comments on code quality:
+
+The class itself arranged well with two static field and one instance field with several method. 
+
+The class made use of singleton pattern because the entire game will need only one mario sprite
+factory. With the singleton, the factory can control all the sprites generated with uniform spritesheet.
+Also the factory can use less memory because there will always be only one instance of it. 
+
+Meanwhile, the factory itself is used by the Mario class as a sprite builder. Since the mario requires
+about just less than 20 spritesheets, a factory can make it a lot easier to combine all those 
+different action states and power-up states with spritesheets. 
+
+However, the methods in the factory is quite complicated. It is possible that in the future to 
+decompose some of the methods into more smaller methods.
+
+Number of minutes taken to complete the review:
+12 min.
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+
+In the future, we can refactor methods in the class into smaller methods to improve the readability of 
+this class.

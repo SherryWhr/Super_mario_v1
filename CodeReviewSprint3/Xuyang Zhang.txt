@@ -1,0 +1,31 @@
+Author of the Code Review:
+Xuyang Zhang
+
+Date of the Code Review:
+2018/03/20
+
+Sprint Number:
+Sprint 3
+
+Name of the .cs file being reviewed:
+BrickBlock.cs
+
+Author of the Class: Xuyang Zhang
+
+Time Used: 10 min
+
+Comments on Code Quality:
+
+Basically. each method in this class has reasonable length and serve only single purpose
+fields that cannot be accessed from outer class are private
+the coupling of this class is 30, I think it is in the reasonable range
+Cyclomatic Complexity is 21, middle level difficulty to test
+It is good to use a state machine and state pattern for the brick,
+which kind of decouple the states from brick entity class
+and the transition functions in this class avoid bunch of if-else statements, making the code more easy to read;
+
+Further improvement
+for the bump function in this class; maybe think about to extract the mario states judging part
+and put it in the brick state's transition to do this job
+
+

@@ -1,0 +1,23 @@
+Author: Xuyang Zhang
+Date of the Code review: 2/27/2018
+Sprint number: 2
+Sprite.Enemies: Mario.cs
+.cs Author: Bin, Chen
+
+
+Time to complete: 10min
+
+each method in this class has reasonable length and serve only single purpose
+fields that cannot be accessed from outer class are private
+the coupling of this 38 which is a little high
+Cyclomatic Complexity is 44, middle level difficulty to test
+the Draw Method should be refactorted to be more simplified
+The state machine part in this class is fine, 
+but the transition states should be reconsidered, like how to implement Star state without 
+rewrite all other state methods
+
+hypothetical changes:
+Actually there many refactory work to do for this class.
+Refactor this class to be easy implement physics. 
+Or extent a BasePhysics class
+Also should keep lower the coupling

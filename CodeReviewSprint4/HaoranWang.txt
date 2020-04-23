@@ -1,0 +1,24 @@
+﻿Author: Haoran Wang
+Date of the Code review: 4/3/2018
+Sprint number: 4
+Sprite.Enemies: MarioSpriteFactory.cs
+Author of the .cs file: Haoran Wang
+
+
+Time to complete: 15 min
+
+Comments on Code Quality:
+Singleton is used in this sprite factory. Each method in this class has reasonable length and 
+serve only single purpose. 
+It has two private dictionaries of sprite and collision size which cannot be accessed from outer 
+class.
+The coupling of this class is 30, medium level of coupling. Cyclomatic Complexity is 39, medium 
+level of difficulty.
+These two value shows that the factory is quite complicate. This is because there are quite a lot 
+of if-else statements in the Helper method and BuildMario method, in which we used these method 
+to compose the names to get access to the sprites.
+
+Further improvement
+We could potentially refactor the Helper method and BuildMario. We could either make them into 
+smaller method, or find a way to combine them into one method, since they use the same way to 
+compose the sprite name. 

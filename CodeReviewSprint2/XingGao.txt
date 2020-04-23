@@ -1,0 +1,23 @@
+Author: Xing Gao
+Date: 2/27/2018
+Sprint 2
+
+File being reviewed: 
+QuestionBlock.cs, PyramidBlock.cs, UsedBlock.cs, HiddenBlock.cs,
+FloorBlock.cs, BrickBlock.cs
+
+Author of the .cs file: Wally Yang
+
+Specific comments on code quality: 
+All these methods are used for creating block objects and all block objects cannot change location.
+Therefore, in the future, it can be considered to add a Block class for drawing sprites, updating, 
+and generating objects. The exisitng block related classes can inherit Block class and develop their
+specific tasks or functions in it.
+
+Time used: 
+12 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation 
+could or could not easily support that change:
+If there are more kinds of blocks added into the game, then make all blocks just inheriting BaseCollideObject
+is not wise. Such implementation will cause errors and make the code not organized.

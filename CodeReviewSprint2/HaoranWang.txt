@@ -1,0 +1,21 @@
+﻿Author: Haoran Wang
+Date: 2/27/2018
+Sprint 2
+
+File being reviewed: Mario.cs
+Author of the .cs file: Bin Chen
+
+Specific comments on code quality: 
+The code quality is pretty good. This file implement the states and actions of mario and also implement the state transitions when colliding with different objects 
+in different directions. The situations that mario colliding with coins and starman are not implemented, which will be implement in the future sprints. When Implementing 
+OnCollide, the code seems to be quite complicated, there are multiple if-else statements inside of an if-else statement, which could be use switches to substitute or 
+implement the entire OnCollide as a class.
+
+
+Time used: 15 minutes
+
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could or could not easily support that change:
+A potential change related to this file would be to implement the OnCollide method in a collision class, since in the future other objects will also need to implement for
+collisions. 
+
+

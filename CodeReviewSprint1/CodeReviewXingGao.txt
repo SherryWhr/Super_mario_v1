@@ -1,0 +1,40 @@
+Author: Xing Gao
+
+Date: 2/13/2018
+
+Sprint 1
+
+File being reviewed: 
+    OneUpMushroom.cs, SuperMushroom.cs
+Author of the .cs file: 
+    Haoran Wang	
+Specific comments on code quality:
+    The code is well organized and neat. Thought there are not a lot of comments used in this file, the author applied 
+    meaningful variable names to make her code readable. It is wise to use upCount and downCount to limit the moving height 
+    of the mushroom. The constructor function only requires two parameters - game and position, which makes the code flexible
+    and easier for extension later.
+Time used: 
+    12 minutes
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could 
+or could not easily support that change:
+    In the later sprint, if the team would prefer to add features to mushrooms, such as let the mushroom "fly" and explode, 
+    the programer only needs to add new function to support this change. Hence, the current version is appropriate for future
+    update.
+   
+
+File being reviewed: 
+    ItemSprite.cs
+Author of the .cs file: 
+    Xuyang Zhang
+Specific comments on code quality:
+   The code is short but comprehensive. The inheritance between ItemSprite and its parent and child classes are appropriatlly set.
+   The weakness is that since all item classes have the common part of their constructor functions, it might be better if an
+   abstract constructor can be declared in the ItemSprite.cs. This will increase the readability and flexibility of the code. 
+Time used: 
+    6 minutes
+A hypothetical change to make to the game related to file being reviewed and how the current implementation could 
+or could not easily support that change:
+    In the future work, if the team would add more items into this game, with the assist of inheritance, the new feature will be 
+    easily implemented and include two functions - update and draw.
+    
+

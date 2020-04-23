@@ -1,0 +1,24 @@
+﻿Author: Haoran Wang
+Date of the Code review: 3/20/2018
+Sprint number: 3
+Sprite.Enemies: Mario.cs
+Author of the .cs file: Chen Bin
+
+
+Time to complete: 13 min
+
+This class is very long with more than 300 lines. And according to the Code Metrics, its cyclomatic 
+complexity is 73 and its coupling is 39. 
+The Mario constructor is well written, this dictionary of the states makes the code tidier and 
+easier to read since is used state pattern. 
+The UpdateSprite method is much easier compared to last time, since it combines the two states as 
+instance. 
+The Collide methods are not that well written, since all the 4 case of collision directions consider
+colliding with the same game objects using if else statement. This part gives the code high cyclomatic 
+complexity. This also happen in other objects' collision methods, for exameple, OneUpMushroom and 
+Starman.
+
+Hypothetical changes:
+The collision for the four directions could be potentially combined together after deliberate
+consideraing. Collision from four directions for all the objects could be made into one class too, 
+since they have very similar structure. 
