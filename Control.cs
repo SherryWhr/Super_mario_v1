@@ -74,6 +74,9 @@ namespace MahJong
                     c.AddCommand((int)Keys.I, new FireMarioCommand(model.Mario));
                     c.AddCommand((int)Keys.O, new DamageMarioCommand(model.Mario));
                     c.AddCommand((int)Keys.X, new ThrowFireballCommand(model.Mario));
+                    c.AddCommand((int)Keys.F1, new StartNormalLevelCommand(game));
+                    //c.AddCommand((int)Keys.F2, new StartRandonLevelCommand(game));
+                    c.AddCommand((int)Keys.F4, new BacktoStartPageCommand(game));
 
 
                     // Keys for visualize collision box

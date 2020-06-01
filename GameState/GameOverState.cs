@@ -18,6 +18,7 @@ namespace MahJong.GameState
             game.Control.RemapControllers();
             font = game.Content.Load<SpriteFont>("Arial");
             spriteBatch = new SpriteBatch(game.GraphicsDevice);
+            game.ResetGame();
         }
         public override void Update(GameTime gameTime)
         {
@@ -32,6 +33,7 @@ namespace MahJong.GameState
             spriteBatch.Begin();
             spriteBatch.DrawString(font, "GameOver", new Vector2(250, 300), Color.White);
             spriteBatch.DrawString(font, "Press R to Restart, Press Q to Exit", new Vector2(250, 330), Color.White);
+            spriteBatch.DrawString(font, "Press F4 to Start Page", new Vector2(250, 360), Color.White);
             spriteBatch.End();
             game.Scene.Draw(gameTime);
         }

@@ -19,6 +19,9 @@ namespace MahJong.GameState
         void GameOver();
         void Underground();
         void TimesUp();
+        void StartNormalLevel();
+        void StartRandomLevel();
+        void BacktoStartPage();
     }
 
     internal abstract class BaseGameState : IGameState
@@ -45,8 +48,15 @@ namespace MahJong.GameState
         {
             
         }
+        public virtual void StartNormalLevel()
+        {
+           
+        }
 
+        public virtual void StartRandomLevel()
+        {
 
+        }
         public virtual void Pause()
         {
             
@@ -71,7 +81,10 @@ namespace MahJong.GameState
         {
 
         }
-
+        public virtual void BacktoStartPage()
+        {
+            game.CurrgameState = new StartGameState(game);
+        }
         public abstract void Update(GameTime gameTime);
 
     }

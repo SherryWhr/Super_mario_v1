@@ -302,6 +302,53 @@ namespace MahJong
 
     }
 
+    internal class StartNormalLevelCommand : BaseCommand<MarioGame>
+    {
+        public StartNormalLevelCommand(MarioGame receiver)
+            : base(receiver)
+        {
+            
+        }
+
+        public override void Execute()
+        {
+            receiver.StartNormalLevel();
+
+        }
+
+    }
+    internal class StartRandomLevelCommand : BaseCommand<MarioGame>
+    {
+        public StartRandomLevelCommand(MarioGame receiver)
+            : base(receiver)
+        {
+
+        }
+
+        public override void Execute()
+        {
+            receiver.StartNormalLevel();
+
+        }
+
+    }
+
+    internal class BacktoStartPageCommand : BaseCommand<MarioGame>
+    {
+        public BacktoStartPageCommand(MarioGame receiver)
+            : base(receiver)
+        {
+
+        }
+
+        public override void Execute()
+        {
+            receiver.BacktoStartPage();
+
+        }
+
+    }
+
     //internal class HitQuestionBlockCommand : BaseCommand<QuestionCoinBlock>
     //{
     //    public HitQuestionBlockCommand(QuestionCoinBlock receiver)

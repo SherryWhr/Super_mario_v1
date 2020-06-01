@@ -25,7 +25,7 @@ namespace MahJong.GameState
             //this.pregameState = pregameState;
             Avartar = new Sprite(game.Content.Load<Texture2D>("Mario/NormalIdleRightMario"), new Point(1, 1), false, 1, 0f, 500);
             spriteBatch = new SpriteBatch(game.GraphicsDevice);
-            font = game.Content.Load<SpriteFont>("Arial");
+            //font = game.Content.Load<SpriteFont>("Arial");
             game.Control.RemapControllers();
         }
 

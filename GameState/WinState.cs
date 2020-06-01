@@ -16,7 +16,7 @@ namespace MahJong.GameState
         : base(game)
         {
             game.Control.RemapControllers();
-            font = game.Content.Load<SpriteFont>("Arial");
+            //font = game.Content.Load<SpriteFont>("Arial");
             spriteBatch = new SpriteBatch(game.GraphicsDevice);
         }
         public override void Update(GameTime gameTime)
@@ -30,8 +30,8 @@ namespace MahJong.GameState
         {
             //game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
-            spriteBatch.DrawString(font, "You Win!", new Vector2(250, 300), Color.White);
-            spriteBatch.DrawString(font, "Press R to Restart, Press Q to Exit", new Vector2(250, 330), Color.White);
+            //spriteBatch.DrawString(font, "You Win!", new Vector2(250, 300), Color.White);
+            //spriteBatch.DrawString(font, "Press R to Restart, Press Q to Exit", new Vector2(250, 330), Color.White);
             spriteBatch.End();
             game.Scene.Draw(gameTime);
         }

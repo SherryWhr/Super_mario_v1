@@ -71,6 +71,18 @@ namespace MahJong.GameObject.Enemies
                 GetDamaged();
         }
 
+        private void CollideStarMario(IGameObject b)
+        {
+            if (b is Mario.Mario)
+            {
+                Mario.Mario mario = b as Mario.Mario;
+                if (mario.CurrentPowerUpState is Mario.PowerUpState.StarState)
+                {
+                    this.GetDamaged();
+                }
+            }
+        }
+
         public override void CollideOnBottom(IGameObject b)
         {
             if (b is IBlock && !IsDefeated())
@@ -83,6 +95,7 @@ namespace MahJong.GameObject.Enemies
        
             }
             CollideFireBall(b);
+            CollideStarMario(b);
            // Debug.WriteLine("Enemy is Collided On Bottom: ");
 
 
@@ -94,6 +107,7 @@ namespace MahJong.GameObject.Enemies
                 this.GetDamaged();
 
             CollideFireBall(b);
+            CollideStarMario(b);
             //Debug.WriteLine("Enemy is Collided On Top:");
         }
 
@@ -105,6 +119,7 @@ namespace MahJong.GameObject.Enemies
                
             }
             CollideFireBall(b);
+            CollideStarMario(b);
             //Debug.WriteLine("Enemy is Collided On Left:");
         }
 
@@ -116,6 +131,7 @@ namespace MahJong.GameObject.Enemies
 
             }
             CollideFireBall(b);
+            CollideStarMario(b);
             //Debug.WriteLine("Enemy is Collided On Right:");
         }
 

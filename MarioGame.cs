@@ -45,7 +45,7 @@ namespace MahJong
             Scene = new Scene(this, GameModel);
             Control = new Control(this, GameModel, Scene);
 
-            CurrgameState = new PlayGameState(this, CurrgameState);
+            
         }
 
         /// <summary>
@@ -59,8 +59,8 @@ namespace MahJong
             GameModel.Initialize();
             Control.Initialize();
             Scene.Initialize();
-
             base.Initialize();
+
         }
 
         /// <summary>
@@ -75,6 +75,7 @@ namespace MahJong
             Scene.LoadContent();
             SoundManager.LoadSounds(this);
             SoundManager.PlayMainThemeSound();
+            CurrgameState = new StartGameState(this);
         }
 
         /// <summary>
@@ -160,6 +161,19 @@ namespace MahJong
         public void UnPause()
         {
             CurrgameState = new PlayGameState(this, CurrgameState);
+        }
+        public void StartNormalLevel()
+        {
+            //press f1
+            CurrgameState.StartNormalLevel();
+        }
+        public void StartRandomLevel()
+        {
+            //press f2
+        }
+        public virtual void BacktoStartPage()
+        {
+            CurrgameState.BacktoStartPage();
         }
     }
 }

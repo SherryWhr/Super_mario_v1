@@ -166,18 +166,18 @@ namespace MahJong.Factory
             }
             else if (marioPowerUp == MarioPowerUp.Star)
             {
-                String preState = "";
+                String preState = "Star";
                 String Action = (marioAction).ToString();
                 if (mario.StateBeforeStar is NormalState)
                 {
-                    preState = "Normal";
+                    //preState = "Normal";
                     if ((marioAction == MarioAction.Crouch))
                         Action = "Idle";
                 }
                 else if (mario.StateBeforeStar is SuperState)
-                    preState = "Super";
+                    preState += "Large";
                 else if (mario.StateBeforeStar is FireState)
-                    preState = "Fire";
+                    preState += "Large";
 
                 resourceString +=
                     preState

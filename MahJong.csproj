@@ -65,7 +65,6 @@
     <Compile Include="Event\IObserver.cs" />
     <Compile Include="Factory\BrickSpriteFactory.cs" />
     <Compile Include="Factory\EntitiesFactory.cs" />
-    <Compile Include="Factory\FontFactory.cs" />
     <Compile Include="Factory\MarioSpriteFactory.cs" />
     <Compile Include="Factory\ObstacleSpriteFactory.cs" />
     <Compile Include="Factory\QuestionBlockSpriteFactory.cs" />
@@ -120,7 +119,6 @@
     <Compile Include="GameState\TimeUpState.cs" />
     <Compile Include="GameState\WinState.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="HUD.cs" />
     <Compile Include="GameObject\Obstacles\ObstacleState\BrickBlockState.cs" />
     <Compile Include="GameObject\Obstacles\ObstacleState\BrickHiddenState.cs" />
     <Compile Include="GameObject\Obstacles\ObstacleState\BrickNormalState.cs" />

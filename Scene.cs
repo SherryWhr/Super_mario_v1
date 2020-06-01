@@ -35,7 +35,7 @@ namespace MahJong
         private LinearWrap background;
 
         //TEST
-        public HUD Hud;
+        //public HUD Hud;
         public Scene(MarioGame game, GameModel model)
         {
             this.Game = game;
@@ -56,7 +56,7 @@ namespace MahJong
 
             background = new LinearWrap(Game);
             background.Initialize();
-            Hud = new HUD(Game);
+            //sHud = new HUD(Game);
         }
 
         public void LoadContent()
@@ -118,7 +118,7 @@ namespace MahJong
                 //spriteBatchObject.End();
 
             }
-            Hud.Draw(spriteBatchObject);
+            //Hud.Draw(spriteBatchObject);
 
         }
 
