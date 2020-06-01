@@ -1,0 +1,2401 @@
+{
+  "FieldHeight": 15,
+  "FieldWidth": 55,
+  "TotalHeight": 130,
+  "StartPointX": 5,
+  "StartPointY": 6,
+  "SecretUpperLeftX": 15,
+  "SecretUpperLeftY": 115,
+  "SecretLowerRightX": 40,
+  "SecretLowerRightY": 130,
+
+  "EnemyObjects": [
+    {
+      "EnemyType": "Goomba",
+      "LocationX": 5,
+      "LocationY": 13
+    },
+    {
+      "EnemyType": "Goomba",
+      "LocationX": 25,
+      "LocationY": 13
+    },
+    {
+      "EnemyType": "Goomba",
+      "LocationX": 8,
+      "LocationY": 3
+    },
+    {
+      "EnemyType": "KoopaTroopa",
+      "LocationX": 10,
+      "LocationY": 13
+    }
+  ],
+
+
+
+  "StructuralObjects": [
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": true,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 6,
+      "LocationY": 4
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 5,
+      "LocationY": 4
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 8,
+      "LocationY": 4
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 5,
+      "PowerUpItem": "None",
+      "LocationX": 8,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "SuperMushroom",
+      "LocationX": 10,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "OneUpMushroom",
+      "LocationX": 17,
+      "LocationY": 6
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "Starman",
+      "LocationX": 12,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 2,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 3,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 4,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 5,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 6,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 7,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 8,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 1,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 2,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 3,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 4,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 5,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 6,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 7,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 8,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 9,
+      "LocationY": 14
+    },
+
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 10,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 11,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 12,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 14
+    },
+
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 17,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 20,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 21,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 22,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 23,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 24,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 25,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 1,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 2,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 3,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 4,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 5,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 6,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 7,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 8,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 9,
+      "LocationY": 15
+    },
+
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 10,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 11,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 12,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 15,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 16,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 15,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 16,
+      "LocationY": 14
+    },
+
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 17,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 20,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 21,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 22,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 23,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 24,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 25,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 30,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 30,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 31,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 31,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 32,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 33,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 34,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 35,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 36,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 37,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 38,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 39,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 40,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 41,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 32,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 33,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 34,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 35,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 36,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 37,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 38,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 39,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 40,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 41,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 42,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 43,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 44,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 45,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 46,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 47,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 48,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 49,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 50,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 51,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 52,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 53,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 54,
+      "LocationY": 14
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 55,
+      "LocationY": 14
+    },
+
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 42,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 43,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 44,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 45,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 46,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 47,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 48,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 49,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 50,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 51,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 52,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 53,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 54,
+      "LocationY": 15
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 55,
+      "LocationY": 15
+    },
+
+
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 20,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 21,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 22,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 23,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 24,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 25,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 30,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 31,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 32,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 33,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 34,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 35,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 36,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 37,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 38,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 39,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 117
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 118
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 119
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 120
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 121
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 122
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 123
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 124
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 125
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 126
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 127
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 128
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 13,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 116
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 117
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 118
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 119
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 120
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 121
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 122
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 123
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 124
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 125
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 126
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 127
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 128
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 15,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 15,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 16,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 17,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 20,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 21,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 22,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 23,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 24,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 25,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 30,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 31,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 32,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 33,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 34,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 35,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 36,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 37,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 38,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 39,
+      "LocationY": 129
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 16,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 17,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 20,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 21,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 22,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 23,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 24,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 25,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 30,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 31,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 32,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 33,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 34,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 35,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 36,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 37,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 38,
+      "LocationY": 130
+    },
+    {
+      "BlockType": "FloorBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 39,
+      "LocationY": 130
+    },
+
+
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 17,
+      "LocationY": 13
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 13
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 18,
+      "LocationY": 12
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 12
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 13
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 19,
+      "LocationY": 11
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 26,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 27,
+      "LocationY": 5
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 28,
+      "LocationY": 5
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 1,
+      "PowerUpItem": "None",
+      "LocationX": 7,
+      "LocationY": 4
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": true,
+      "CoinNumber": 0,
+      "PowerUpItem": "FireFlower",
+      "LocationX": 4,
+      "LocationY": 10
+    },
+
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "FireFlower",
+      "LocationX": 13,
+      "LocationY": 6
+    },
+
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "Starman",
+      "LocationX": 27,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 14,
+      "LocationY": 6
+    },
+    {
+      "BlockType": "QuestionBlock",
+      "Hidden": false,
+      "CoinNumber": 1,
+      "PowerUpItem": "None",
+      "LocationX": 29,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "BrickBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "SuperMushroom",
+      "LocationX": 28,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 0
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 1
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 2
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 3
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 4
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 5
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 6
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 7
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 8
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 9
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 10
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 11
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 12
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 13
+    },
+    {
+      "BlockType": "PyramidBlock",
+      "Hidden": false,
+      "CoinNumber": 0,
+      "PowerUpItem": "None",
+      "LocationX": 0,
+      "LocationY": 14
+    }
+
+  ],
+  "Pipes": [
+    {
+      "Active": true,
+      "Height": 3,
+      "Width": 2,
+      "LocationX": 15,
+      "LocationY": 13,
+      "InSecret": true,
+      "TargetX": 17,
+      "TargetY": 117,
+      "HasEnemy": false
+    },
+
+    {
+      "Active": false,
+      "Height": 3,
+      "Width": 2,
+      "LocationX": 48,
+      "LocationY": 13,
+      "HasEnemy": true
+    },
+    
+    {
+      "Active": true,
+      "Height": 3,
+      "Width": 2,
+      "LocationX": 10,
+      "LocationY": 13,
+      "TargetX": 30,
+      "TargetY": 10
+    },
+
+    {
+      "Active": false,
+      "Height": 3,
+      "Wdith": 2,
+      "LocationX": 30,
+      "LocationY": 13
+    },
+
+    {
+      "Active": true,
+      "Height": 3,
+      "Width": 2,
+      "LocationX": 38,
+      "LocationY": 128,
+      "HasEnemy": false,
+      "InSecret": true,
+      "TargetX": 30,
+      "TargetY": 10
+    }
+
+  ],
+  "Coins": [
+    {
+      "LocationX": 20,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 14,
+      "LocationY": 5
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 125
+    },
+    {
+      "LocationX": 20,
+      "LocationY": 126
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 21,
+      "LocationY": 125
+    },
+        {
+      "LocationX": 22,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 22,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 22,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 22,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 22,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 22,
+      "LocationY": 125
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 23,
+      "LocationY": 125
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 24,
+      "LocationY": 125
+    },
+        {
+      "LocationX": 25,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 25,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 25,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 25,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 25,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 25,
+      "LocationY": 125
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 26,
+      "LocationY": 125
+    },
+        {
+      "LocationX": 27,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 27,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 27,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 27,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 27,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 27,
+      "LocationY": 125
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 120
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 121
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 122
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 123
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 124
+    },
+    {
+      "LocationX": 28,
+      "LocationY": 125
+    }
+  ],
+
+  "Flags": [
+    {
+      "LocationX": 52,
+      "LocationY": 13
+    }
+  ]
+}
